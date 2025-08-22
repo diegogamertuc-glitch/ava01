@@ -1,0 +1,23 @@
+{
+  "name": "api-estoque",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/stack": "^7.4.7",
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "react-native-safe-area-context": "^5.6.1",
+    "react-native-screens": "^4.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
