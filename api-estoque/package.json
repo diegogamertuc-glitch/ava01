@@ -1,0 +1,19 @@
+{
+  "name": "api-estoque",
+  "version": "1.0.0",
+  "description": "API de Estoque - Avaliação 01",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "migrate": "npx knex migrate:latest --knexfile knexfile.js",
+    "rollback": "npx knex migrate:rollback --knexfile knexfile.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
